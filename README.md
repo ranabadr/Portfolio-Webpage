@@ -14,7 +14,7 @@
    * About
    * Work
    * Contact
-- The Work sectin is a Portfolio desplayed with a carousel.
+- The Work section is a Portfolio displayed with a carousel.
 
 ## Features
 
@@ -23,4 +23,4 @@
 
 ## Languages
 
-**HTML**, **CSS** and **Javascript** have been used to create this project.
+**HTML**, **CSS**, and **Javascript** have been used to create this project.
