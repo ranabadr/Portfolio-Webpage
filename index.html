@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portofolio">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9429f90e5a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a class="navbar_brand" href="#">Badr.</a>
+        <button class="collapse-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav id="navbar">
+          <ul>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="navigation">
+        <div class="links-wraper">
+          <a href="#welcome-section">About</a>
+          <a href="#projects">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <main>
+        <section id="welcome-section">
+          <div class="welcome">
+            <p>Front-End web developer</p>
+            <h1>Hey,<br>I am Rana Badr</h1>
+            <div class="buttons">
+              <button id="about" target="_blank">MORE ABOUT ME</button>
+              <button id="hire" target="_blank">HIRE ME</button>
+            </div>
+          </div>
+          <div class="slide-show"></div>
+        </section>
+        
+        <setion id="projects">
+          <div class="projects-container">
+            <h2>These are some of my projects</h2>
+            <div class="carousel">
+              <button class="carousel-button left is-hidden">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              
+              <div class="carouselTrack-container">
+                <div class="carousel-container">
+                  <div class="project current-slide">
+                    <a href="https://codepen.io/rana3/full/JjvNpdM" target="_blank">
+                      <img src="./images/ProductLP.png" alt="product landing page">
+                      <p class="project-tile">
+                        Trombones Landing Page
+                      </p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://codepen.io/rana3/full/zYjwRJj" target="_blank">
+                      <img src="./images/SurveyForm.png" alt="survey form">
+                      <p class="project-tile">
+                        Survey Form
+                      </p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://codepen.io/rana3/full/OJZmQrM" target="_blank">
+                      <img src="./images/Documentation.png" alt="documentation page">
+                      <p class="project-tile">
+                        Technical Documentation Page
+                      </p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://codepen.io/rana3/full/zYjwRbL" target="_blank">
+                      <img src="./images/TributePage.png" alt="tribute page">
+                      <p class="project-tile">
+                        Tribute Page
+                      </p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://codepen.io/rana3/full/mdLmKMY" target="_blank">
+                      <img src="./images/Calculator.png" alt="calculator">
+                      <p class="project-tile">
+                        Calculator
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <button class="carousel-button right">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+
+              <div class="carousel-nav">
+                <button class="carousel-indicator current"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+              </div>
+            </div>
+          </div>
+        </setion>
+
+        <section id="contact">
+          <div class="contact-header">
+            <h2>Let's work together...</h2>
+            <p>How do you take your coffee?</p>
+          </div>
+          <div class="contact-links">
+            <a id="github" href="https://github.com/ranabadr" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a id="linkedin" href="https://www.linkedin.com/in/rana-badr-079026220" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a id="facebook" href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i></i></a>
+            <a id="instagram" href="#" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a id="email" href="mailto:rana_badr3@yahoo.com" target="_blank"><i class="fa-solid fa-envelope"></i></i></a>
+          </div>
+        </section>
+</main>
+
+      <footer>
+        <p>Copyright ©2022, Rana Badr</p>
+      </footer>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
