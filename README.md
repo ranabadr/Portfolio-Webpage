@@ -9,7 +9,7 @@
 ## Description
 
 - A **Responsive** portfolio webpage.
-- A **Landing page** with a collapsable navigation bar on     mobile view.
+- A **Webpage** with a collapsable navigation bar on     mobile view.
 - The webpage contains three sections:
    * About
    * Work
